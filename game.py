@@ -8,7 +8,8 @@
 
 #PLAYER NAME
 import os 
-print(os.environ)
+os.environ.get('USER')
+print(os.environ('USER'))
 
 
 
