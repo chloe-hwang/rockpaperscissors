@@ -8,7 +8,8 @@
 
 #PLAYER NAME
 import os 
-player_name = os.getenv("PLAYER NAME", default = "PLAYER ONE")
+print(os.environ)
+
 
 
 #USER INPUT 
