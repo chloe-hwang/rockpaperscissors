@@ -17,14 +17,12 @@ validchoices = ['rock','ROCK','Rock','PAPER','paper','Paper','SCISSORS','scissor
 if userchoice not in validchoices:
     print("Oops! You did not enter 'rock', 'paper', or 'scissors'.")
     print(exit)
-
 #COMPUTER SIMULATION 
 #followed this part in class, thank you Professor Rossetti! 
-import random
+else: import random
 options = ["rock","paper","scissors"]
 computerchoice = random.choice(options)
 print("COMPUTER CHOSE:", computerchoice)
-
 
 #DETERMINING THE WINNER 
 
