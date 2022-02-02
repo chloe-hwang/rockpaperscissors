@@ -12,3 +12,8 @@ userchoice = input("Choose one: 'rock', 'paper', 'scissors'!")
 print("USER CHOSE:", userchoice)
 
 #VALIDATE USER INPUT 
+validchoices = ['rock','ROCK','Rock','PAPER','paper','Paper','SCISSORS','scissors','Scissors']
+
+if userchoice not in validchoices:
+    print("error! Pls input rock, paper, or scissors.")
+    
