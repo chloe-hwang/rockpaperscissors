@@ -6,6 +6,11 @@
 # ... https://github.com/prof-rossetti/intro-to-python/blob/main/exercises/rock-paper-scissors/README.md
 #
 
+#PLAYER NAME
+import os 
+player_name = os.getenv("PLAYER NAME", default = "PLAYER ONE")
+
+
 #USER INPUT 
 userchoice = input("Choose one: 'rock', 'paper', 'scissors'!")
 
