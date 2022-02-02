@@ -9,8 +9,8 @@
 #PLAYER NAME
 import os 
 os.environ.get('USER')
-print(os.environ('USER'))
-
+playername = os.environ('USER')
+print(playername)
 
 
 #USER INPUT 
