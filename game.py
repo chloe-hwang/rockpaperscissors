@@ -17,12 +17,35 @@ validchoices = ['rock','ROCK','Rock','PAPER','paper','Paper','SCISSORS','scissor
 if userchoice not in validchoices:
     print("Oops! You did not enter 'rock', 'paper', or 'scissors'.")
     print(exit)
+
+
+
 #COMPUTER SIMULATION 
 #followed this part in class, thank you Professor Rossetti! 
-else: import random
+import random
 options = ["rock","paper","scissors"]
 computerchoice = random.choice(options)
 print("COMPUTER CHOSE:", computerchoice)
 
+
+
 #DETERMINING THE WINNER 
+if userchoice == computerchoice:
+    print("It's a tie game!")
+
+elif userchoice == "rock" and computerchoice == "paper":
+    print("Sorry! You Lost")
+elif userchoice == "rock" and computerchoice == "scissors":
+    print("Yay! You won!")
+elif userchoice == "paper" and computerchoice == "rock":
+    print("Yay! You won!")
+elif userchoice == "paper" and computerchoice == "scissors":
+    print("Sorry! You Lost.")
+elif userchoice == "scissors" and computerchoice == "rock":
+    print("Sorry! You Lost.")
+elif userchoice == "scissors" and computerchoice == "paper":
+    print ("Yay! You won!")
+
+
+
 
