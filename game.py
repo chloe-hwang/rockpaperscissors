@@ -15,5 +15,6 @@ print("USER CHOSE:", userchoice)
 validchoices = ['rock','ROCK','Rock','PAPER','paper','Paper','SCISSORS','scissors','Scissors']
 
 if userchoice not in validchoices:
-    print("error! Pls input rock, paper, or scissors.")
+    print("Oops! You did not enter 'rock', 'paper', or 'scissors'.")
+    print(exit)
     
