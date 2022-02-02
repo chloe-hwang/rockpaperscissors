@@ -46,6 +46,8 @@ elif userchoice == "scissors" and computerchoice == "rock":
 elif userchoice == "scissors" and computerchoice == "paper":
     print ("Yay! You won!")
 
+#FINAL MESSAGE 
+print("Thanks For Playing! :D")
 
 
 
