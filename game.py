@@ -33,7 +33,7 @@ print("COMPUTER CHOSE:", computerchoice)
 if userchoice == computerchoice:
     print("It's a tie game!")
 
-elif userchoice == "rock" and computerchoice == "paper":
+if userchoice == "rock" and computerchoice == "paper":
     print("Sorry! You Lost")
 elif userchoice == "rock" and computerchoice == "scissors":
     print("Yay! You won!")
