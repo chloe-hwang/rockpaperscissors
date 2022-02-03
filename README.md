@@ -25,9 +25,10 @@ pip install -r requirements.txt
 ## Usage
 
 Run the rock paper scissors game:
+Input user name into "Your Name" 
 
 ```sh
-python game.py
+PLAYER_NAME = "Your Name" python game.py
 ```
 
 ## Testing
