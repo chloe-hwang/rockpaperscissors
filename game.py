@@ -1,16 +1,22 @@
 
 
-
-#
 # todo: write some Python code here to satisfy the exercise objectives
 # ... https://github.com/prof-rossetti/intro-to-python/blob/main/exercises/rock-paper-scissors/README.md
 #
 
+
+
 #PLAYER NAME
 # this is the "game.py" file...
 
+from gettext import install
 import os
-from dotenv 
+from dotenv import load_dotenv
+load_dotenv()  # take environment variables from .env.
+
+# Code of your application, which uses environment variables (e.g. from `os.environ` or
+# `os.getenv`) as if they came from the actual environment.
+
 player_name = os.getenv("PLAYER_NAME", default="Player One")
 
 print("Player Name is:", os.environ.get('PLAYER_NAME'))
