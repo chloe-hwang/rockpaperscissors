@@ -8,9 +8,10 @@
 
 #PLAYER NAME
 import os 
-os.environ.get('USER')
-playername = os.environ('USER')
-print(playername)
+print("Player Name is:", os.environ.get('PLAYER_NAME'))
+
+
+
 
 
 #USER INPUT 
